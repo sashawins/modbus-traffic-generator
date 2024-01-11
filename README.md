@@ -31,6 +31,10 @@
     num_interactions = 2000 # Количество запросов
     max_num_registers = 25  # Максимальное количество регистров в каждом пакете
 
+### Результат
+
+В результате выполнения получится pcap-файл `modbus-interactions.pcap`, который можно найти в той же директории, из которой запускался код. Данный файл можно посмотреть и проанализировать через, например, [Wireshark](https://www.wireshark.org/).
+
 ## Требования
 
 Для успешного запуска должны быть установлены модули [NumPy](https://github.com/numpy/numpy) и [Scapy](https://github.com/secdev/scapy):
@@ -39,3 +43,8 @@
     python3 -m pip install scapy
 
 ## Авторы
+
+> Илья Сабуров [@Ilya-Saburov](https://github.com/Ilya-Saburov)  
+> Стригин Дмитрий [@PROUTEK8](https://github.com/PROUTEK8)  
+> Александр Омелёхин [@sashawins](https://github.com/sashawins)  
+> Григорий Иконников [@ghosthunt3r](https://github.com/ghosthunt3r)
